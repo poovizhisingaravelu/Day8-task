@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Anek+Latin:wght@500&family=Luckiest+Guy&family=Playball&family=Roboto&display=swap" rel="stylesheet"
+        <link rel="styleshet" href="css/reset.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="container"> 
+            <div class="section">
+        <h1 class="special">POOVIZHI S</h1>
+        <p class="header-para">
+            <span><strong>EmailId:</strong> <a href=""mailto:poovizhisingaravelu@gmail.com>poovizhisingaravelu@gmail.com</a></span>
+             <br>
+            <span><strong>contact Number:</strong><a href="call me:87108531">87109531</a></span>
+            <br>
+            <span><strong>Adress:</strong>702 BEDOK RESERVOIR ROAD,
+                 <br> #11-3532,
+                 <br> SINGAPORE 470702.
+</span>
+        </p>    
+    </div>
+   <div class="section">
+        <h2>OBJECTIVE</h2>
+<p>To combine my professional knowledge with my analytical aptitude to innovate and to achieve new heights through dedication, sincerity and hard work.</p>
+
+</div>
+<div class="section">
+    <h2 class="special">EDUCATION</h2>
+<table calss="table-style-1" border="1" width="50%" cellpadding="15" cellsoacing="15">
+  <tr>  <th>course</th>
+    <th>college</th>
+    <th>year</th>
+    <th>score</th>
+</tr>
+<tr>
+    <td>M.TECH</td> 
+        <td>Periyar Maniammai University</td>
+        <td>2012 to 2014</td>
+        <td>8.84%</td>
+    </tr>
+
+<tr>
+    <td rowpan="2">B.TECH</td>
+    <td>AVCCOLLGE</td>
+    <td>2008 to 2012</td>
+    <td>6.76CGPA</td>
+</tr>
+<tr>
+    <td>CLASS XII</td>
+    <td>Government Girls Higher Secondary </td>
+<td>2007 to 2008</td>
+<td>63%</td>
+</tr>
+<tr>
+    <td>CLASS X</td>
+    <td>Government Girls Higher Secondary </td>
+    <td> 2005 to 2006</td>
+    <td>76% </td>
+</tr>
+</table>   
+</div>
+<div class="section">
+<h2>skill</h2>
+<ul class="list-style-1">
+    <li>JAVA</li>
+    <li>MYSQL</li>
+    <li>HTML</li>
+    <li>JSCRIPT</li>
+    <li>ANGULAR</li>
+</ul>
+</div>
+</div>
+    </body>
+
+</html>
+
+css:
+
+   
+  body{
+    background-color: plum;
+    background-image: url('../image/back.jpg');
+    background-repeat :no-repeat;
+    background-size: cover;
+    height: 900px;
+    background-position: right bottom;
+    background-attachment: scroll;
+
+    font-family: 'Anek Latin', sans-serif;
+font-family: 'Luckiest Guy', cursive;
+font-family: 'Playball', cursive;
+font-family: 'Roboto', sans-serif;
+  }
+.container
+{
+  width: 1000px;
+    margin: 0 auto;
+    background-color:white;
+    padding: 10px 40px;
+    box-shadow:  inset 0px 0px 5px red;
+}
+  h1{
+    font-size: 30px;
+    padding: 5px 0;
+   
+    text-shadow:  inset 5px 5px 10px  greenyellow;
+
+  }
+  .header-para
+  {
+    padding: 10px 0 40px;
+    line-height: 1.5;
+  }
+  h2{
+    background-color: gray;
+    padding:  5px  10px;
+    font-size: 30px
+ 
+     
+  }
+  p{
+    margin-bottom: 10px;
+  }
+  .section
+  {
+    margin-bottom: 20px;
+  }
+.table-style-1 {
+ width: 100%;
+}
+.table-style-1 tr {
+
+}
+.table-style-1 tr td,
+.table-style-1 tr th
+{
+  border: solid 1px #ccc;
+  padding: 10px 20px;
+
+}
+.table-style-1 tr th
+{
+  background-color: palevioletred;
+}
+.list-style-1{
+
+}
+.list-style-1 li{
+  list-style: none;
+  padding-left: 30px;
+  
+}
+.list-style-1 li:before {
+  content: "";
+  display: inline-block;
+  background-color: red;
+  width: 8px;
+  height: 8px
+  border-radius:50%;
+  left: -23px;
+  position: relative;
+
+  
+}

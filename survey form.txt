@@ -1,0 +1,168 @@
+html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="survey.css">
+    <link rel="stylesheet" href="font.css">
+    <title>Document</title>
+</head>
+<body>
+    <div>
+        <form>
+            <h2>SURVEY FORM</h2>
+            <label><b>Name</b></label>
+            <input type="text" id="fname">
+            <input type="text" id="lname"> 
+            <br>  <br>
+            <label><b>Email</b></label><br>
+            <input class="email" type="email" >
+            <h4>Your Experiance</h4>
+           <div >
+            <span class="checked">&star;</span>
+            <span class="checked">&star;</span>
+            <span class="checked">&star;</span>
+            <span class="checked">&star;</span>
+            <span class="checked">&star;</span>
+</div>
+<label>Overall,how would you rate your Experiance with us?</label>
+<br>
+<br>
+<label><b>How satisfied are you with*</b></label>
+<table>
+    <tr>
+       <th></th>
+        <th>Very unsatisfied</th>
+        <th>Unsatisfied</th>
+        <th>Neutral</th>
+        <th>Satisfied</th>
+        <th>Very satisfied</th>
+    </tr>
+    <tr>
+        <td>Purchase</td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+    </tr>
+    <tr>
+        <td>Service</td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+    </tr>
+    <tr>
+        <td>Company Overall</td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+    </tr>
+</table>
+<br>
+<label><b>How likely are you to</b></label>
+<br>
+<table>
+    <tr>
+       <th></th>
+        <th>Very unlikely</th>
+        <th>Unlikely</th>
+        <th>Neutral</th>
+        <th>Likely</th>
+        <th>Very likely</th>
+    </tr>
+    <tr>
+        <td>Buy from as again</td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+    </tr>
+    <tr>
+        <td>Recommend our product to others</td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+    </tr>
+    <tr>
+        <td>Recommend our product to others</td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+        <td><input type="radio"></td>
+    </tr>
+</table>
+<br>
+<label>Additional comments or suggestions</label>
+<br>
+<textarea></textarea>
+<div class="butto">
+<button>Submit</button>
+<button>Clear</button>
+</div>
+        </form>
+    </div>
+    
+</body>
+</html>
+
+css
+html{
+    font-family: 'MDGroteskRegular';
+}
+.space{
+    line-height: 500%;
+    margin: 56px;
+    padding-left: 32px;
+   
+}
+.email
+{
+    height: 10%;
+    width: 30%;
+    margin-left: 0 0 0 300px;
+   
+}
+.checked:hover {
+    background-color: orange;
+    cursor: grab;
+
+}
+h2{
+    text-align: center;
+}
+table{
+
+    border-collapse: collapse;
+    width: 100%;
+}
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 10px;
+  text-align: center;
+  }
+  
+  tr:nth-child(even) {
+    background-color:blanchedalmond;
+  }
+  textarea{
+    width:100%;
+  }
+  .butto{
+text-align: center;
+
+  }
+  button{
+    background-color: bisque;
+  }
